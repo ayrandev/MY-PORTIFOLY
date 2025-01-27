@@ -3,7 +3,7 @@ import Animation from "../assets/Animation.png";
 
 const GifContact = () => {
   return (
-    <div className="flex items-end h-[300px] ">
+    <div className="flex items-end w-full h-[300px] justify-center">
       <img
         className="w-64 sm:w-80 md:w-96 lg:w-[500px] opacity-40 z-10 rounded-lg shadow-lg"
         src={Animation}
