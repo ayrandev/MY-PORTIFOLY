@@ -31,10 +31,10 @@ export default function CardsAbout() {
   return (
     <section
       id="CardsAbout"
-      className="relative min-h-screen bg-gradient-to-b from-zinc-950 via-[#000F0C] to-zinc-950"
+      className="relative min-h-screen w-screen bg-gradient-to-b from-zinc-950 via-[#000F0C] to-zinc-950"
     >
       <GifBackGround />
-      <div className="flex flex-col md:flex-row justify-center pt-12 gap-8">
+      <div className="flex flex-col md:flex-row justify-center pt-4">
         {/* Soft-Skills Section */}
         <div className="flex flex-col items-center md:w-1/2 px-4">
           <div className="mb-4 border-b-[1px] border-[#00FFEA] text-center">
@@ -50,7 +50,7 @@ export default function CardsAbout() {
             <Cards title="Proatividade" description="Sempre buscando entregar mais do que foi solicitado, independente do setor que está precisando." />
             <Cards title="Gestão de Tempo" description="Aplicação da técnica de Pomodoro para melhor gerir os prazos estipulados." />
           </div>
-          <div className="flex gap-4 mt-4">
+          <div className="flex gap-4">
             <Button
               onClick={() =>
                 window.open(
@@ -76,7 +76,7 @@ export default function CardsAbout() {
               Hard-Skills
             </h1>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 p-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
             <Cards
               Icon={<FaReact className="text-4xl ml-4 text-indigo-500" />}
               title="React JS"

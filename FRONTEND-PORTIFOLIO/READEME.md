@@ -1,7 +1,7 @@
 # Documentação do Projeto
 
 ## Visão Geral
-Este projeto consiste em um portfólio pessoal para exibir habilidades, projetos e informações de contato. A aplicação é responsiva, moderna e utiliza bibliotecas como **React**, **TailwindCSS** e **Swiper** para criar uma experiência interativa e envolvente.
+Este projeto consiste no meu portfólio pessoal para exibir minhas habilidades, projetos e informações de contato. A aplicação é responsiva, moderna e utiliza bibliotecas como **React**, **TailwindCSS** e **Swiper** para criar uma experiência interativa e envolvente.
 
 ---
 
@@ -129,7 +129,7 @@ npm install
 
 ### 2. **Executar o Projeto**
 ```bash
-npm start
+npm run dev
 ```
 
 ### 3. **Build para Produção**
